@@ -1,0 +1,133 @@
+# Python & Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pyenv/
+__pycache__/
+app/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.parcel-cache/
+
+# Flask & Instance
+instance/
+*.db
+app.db
+*.sqlite
+*.sqlite3
+instance/*.db
+
+# Flask stuff
+*.flaskenv
+.flaskenv
+.env
+.env.local
+.local.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE & Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Migrations (nếu bạn không muốn commit lịch sử migration)
+migrations/versions/*
+
+# Build & Deployment
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+.installed.cfg
+*.manifest
+*.spec
+Pipfile.lock
+
+# Testing & Cache
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Secrets & Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+
+# Custom (nếu bạn có file cấu hình riêng)
+config.local.py
+local_settings.py
+*.bak
+*.swp
+*~
+
+# Nếu dùng Docker
+.docker/
+docker-compose.override.yml
+
+# Nếu dùng Celery hoặc Redis
+celerybeat-schedule
+celeryd.pid
